@@ -1,0 +1,33 @@
+.NavBar {
+  @apply flex justify-between  py-11 bg-primary relative z-50 md:px-12 px-4;
+  text-decoration: none;
+  user-select: none;
+  .nav-wrapper {
+    @apply justify-between flex  w-full mx-auto items-center;
+    .logo {
+      @apply text-white text-[2.5rem] font-bold cursor-pointer;
+    }
+    .tabs {
+      @apply flex space-x-10 uppercase items-center;
+
+      .tab {
+        @apply hidden md:block cursor-pointer text-white hover:border-b-slate-50;
+      }
+    }
+    .mobile {
+      @apply bg-[#897e6d]  md:hidden absolute  top-0 cursor-pointer   flex-col  hover:font-[700] z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500 h-screen;
+      .cancel {
+        @apply text-white self-end cursor-pointer;
+      }
+      .tabb {
+        @apply cursor-pointer hover:text-black hover:font-[700] z-[1000] text-white;
+      }
+    }
+    .menu {
+      @apply md:hidden;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}

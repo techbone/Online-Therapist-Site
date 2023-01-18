@@ -1,0 +1,6 @@
+.wrapperr {
+  @apply md:h-[85vh] h-[80vh]  flex flex-col md:flex-row bg-secondary md:py-24 md:px-16 py-9 px-5 md:space-x-36 space-x-0 md:space-y-0 space-y-3 items-center;
+  .desc {
+    @apply text-black  md:space-y-9 space-y-3  leading-relaxed;
+  }
+}

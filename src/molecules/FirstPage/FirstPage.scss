@@ -1,0 +1,6 @@
+.page--wrapper {
+  @apply md:h-screen h-[50vh] flex-col  bg-heroImg bg-cover bg-no-repeat bg-center  md:py-36 py-5;
+  .desc {
+    @apply text-[#FFFFFF] max-w-[52rem] px-6 md:text-[5rem] text-[2rem] md:pl-[5rem] pb-[2.25rem] pt-[1.25rem] space-y-3;
+  }
+}
