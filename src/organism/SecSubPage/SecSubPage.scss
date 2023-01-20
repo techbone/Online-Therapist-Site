@@ -1,0 +1,6 @@
+.grid--wrapper {
+  @apply flex md:flex-row flex-col  md:px-7 px-0 gap-0;
+  .con {
+    @apply h-[49vh] md:w-[33rem] w-[25rem]  md:p-16 p-10;
+  }
+}
