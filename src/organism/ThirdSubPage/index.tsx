@@ -9,7 +9,7 @@ const ThirdSubPage = () => {
         through my approach, and ensure that we're right fit for one another.
       </p>
       <div className=" md:ml-[40rem] ml-[5rem] w-[10rem] mt-7 md:pb-0 pb-5">
-        <Button title="Free Session" />
+        <Button title="Free Session." />
       </div>
     </div>
   );
