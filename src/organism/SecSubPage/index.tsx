@@ -31,7 +31,9 @@ const SecSubPage = () => {
         <center>
           <i className="text-white text-2xl">03.</i>
         </center>
-        <center className="text-white text-2xl pt-5">INDIVIDUAL THERAPY</center>
+        <center className="text-white text-2xl pt-5">
+          INDIVIDUAL THERAPY.
+        </center>
         <p className="text-white text-2xl font-sans pt-7 md:leading-9">
           Through 1-on-1 sessions, I'll help you to better understand yourself
           and examine aspects of your life you can build upon. Whether your goal
