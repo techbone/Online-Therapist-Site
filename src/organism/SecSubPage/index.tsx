@@ -32,7 +32,7 @@ const SecSubPage = () => {
           <i className="text-white text-2xl">03.</i>
         </center>
         <center className="text-white text-2xl pt-5">
-          INDIVIDUAL THERAPY.
+          INDIVIDUAL-THERAPY.
         </center>
         <p className="text-white text-2xl font-sans pt-7 md:leading-9">
           Through 1-on-1 sessions, I'll help you to better understand yourself
